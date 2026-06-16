@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import java.util.List;
 
-public class SearchPage {
+public class SearchPage extends HelperFunctions{
 
     public SearchPage() {
 
@@ -16,7 +16,9 @@ public class SearchPage {
     }
 
     // Element bulma
-    @FindBy(css = ".product-description.product-card-info__description")
+    @FindBy(xpath = "(//a[@data-product-order='0'])[1]")
     public WebElement firstItem;
+
+
 
 }

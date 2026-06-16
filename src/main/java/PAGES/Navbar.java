@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class Navbar {
+public class Navbar extends HelperFunctions{
     public Navbar(){
         PageFactory.initElements(GWD.getDriver(), this);
     }

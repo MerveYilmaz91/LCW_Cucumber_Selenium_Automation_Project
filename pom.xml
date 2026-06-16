@@ -41,6 +41,13 @@
             <version>6.3.4</version>
         </dependency>
 
+        <!-- TestNG Kütüphanesi -->
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.11.0</version>
+        </dependency>
+
     </dependencies>
 
 </project>

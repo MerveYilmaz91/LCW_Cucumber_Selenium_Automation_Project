@@ -12,7 +12,8 @@ public class MainpageSteps {
         GWD.getDriver().get("https://www.lcwaikiki.com");
 
         MainPage mp = new MainPage();
-        mp.cookiesAcceptButton.click();
+
+        mp.clickElement(mp.cookiesAcceptButton);
 
     }
 }
