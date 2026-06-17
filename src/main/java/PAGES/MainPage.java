@@ -12,8 +12,11 @@ public class MainPage extends HelperFunctions {
         PageFactory.initElements(GWD.getDriver(), this);
     }
     @FindBy(id= "cookieseal-banner-accept")
-
     public WebElement cookiesAcceptButton;
+
+    @FindBy(className= "ins-web-opt-in-reminder-close-button")
+    public WebElement closeNotificationButton;
+
 
 
 }

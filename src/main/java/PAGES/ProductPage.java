@@ -11,11 +11,14 @@ public class ProductPage extends HelperFunctions {
 
         PageFactory.initElements(GWD.getDriver(), this);
     }
+    @FindBy(css = "button[aria-label='Ürün Açıklaması']")
+    public WebElement productDescriptionButton;
 
-    @FindBy(css = ".product-description product-card-info__description")
-    public WebElement productDetailsMiddle;
+    @FindBy(css = ".product-detail-drawer-container")
+    public WebElement productDescriptionText;
 
-    @FindBy(xpath = "//*[contains(text(),'Ürün Açıklaması')]")
-    public WebElement mainDescriptionButton;
+
+    @FindBy(xpath = "//button[contains(text(),'Tüm Çerezlere İzin Ver')]")
+    public WebElement acceptCookiesButton;
 
 }

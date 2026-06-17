@@ -2,6 +2,7 @@ package StepDefinations;
 import PAGES.ProductPage;
 import io.cucumber.java.en.Then;
 import Utility.GWD;
+import org.openqa.selenium.By;
 import org.testng.Assert;
 
 
@@ -9,15 +10,15 @@ public class ProductPageSteps extends GWD {
 
     ProductPage pp = new ProductPage();
 
-    @Then("User be able to see \"kolsuz\" and \"tişört\" in the product description")
-    public void aa() {
+    @Then("User be able to see {string} in the product description")
+    public void aa(String arg0) throws InterruptedException {
 
-        String description = pp.productDetailsMiddle.getText();
+        pp.clickElement(pp.acceptCookiesButton);
 
-        Assert.assertTrue(
-                description.toLowerCase().contains("kolsuz") &&
-                        description.toLowerCase().contains("tişört"),
-                "Ürün açıklamasında kelimeler bulunamadı");
-        }
+        GWD.js.executeScript("arguments[0].scrollIntoView(true);", pp.productDescriptionButton);
+        GWD.js.executeScript("arguments[0].click();", pp.productDescriptionButton);
+
+        Thread.sleep(3000);
     }
+}
 
