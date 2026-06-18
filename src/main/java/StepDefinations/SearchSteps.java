@@ -43,4 +43,21 @@ public class SearchSteps extends GWD {
             Assert.fail();
         }
     }
+
+    @Then("Enter {string} in search input and search")
+    public void enterInSearchInputAndSearch(String arg0) {
+        nb.sendKeys(nb.searchInput,arg0,Keys.ENTER);
+    }
+
+    @Then("User must see the search page with {string} header")
+    public void userMustSeeTheSearchPageWithHeader(String arg0) {
+        sp.header.getText();
+                Assert.assertTrue(sp.header.getText().contains(arg0));
+
+    }
+
+    @Then("User must see the no found page with {string}")
+    public void userMustSeeTheNoFoundPageWith(String arg0) {
+        Assert.assertTrue(sp.notFoundText.getText().contains(arg0));
+    }
 }

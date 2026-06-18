@@ -19,6 +19,14 @@ public class SearchPage extends HelperFunctions{
     @FindBy(xpath = "(//a[@data-product-order='0'])[1]")
     public WebElement firstItem;
 
+    @FindBy(css = "h1.product-list-heading__title")
+    public WebElement header;
+
+    @FindBy(css = ".not-found-keyword__text")
+    public WebElement notFoundText;
+
+
+
 
 
 }

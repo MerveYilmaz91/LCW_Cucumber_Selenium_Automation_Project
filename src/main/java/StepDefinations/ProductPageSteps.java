@@ -1,5 +1,6 @@
 package StepDefinations;
 import PAGES.ProductPage;
+import io.cucumber.java.PendingException;
 import io.cucumber.java.en.Then;
 import Utility.GWD;
 import org.openqa.selenium.By;
@@ -20,5 +21,6 @@ public class ProductPageSteps extends GWD {
 
         Thread.sleep(3000);
     }
+
 }
 
