@@ -22,8 +22,9 @@ public class HelperFunctions {
         waitVisible(element);
         GWD.js.executeScript("arguments[0].scrollIntoView(false)", element);
         GWD.js.executeScript("window.scrollTo(0, 500)", element);
-
         GWD.js.executeScript("arguments[0].scrollIntoView()", element);
+        element.click();
+
     }
 
     public void waitVisible(WebElement element) {

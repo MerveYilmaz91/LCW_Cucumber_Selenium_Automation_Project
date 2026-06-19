@@ -14,7 +14,7 @@ public class ProductPageSteps extends GWD {
     @Then("User be able to see {string} in the product description")
     public void aa(String arg0) throws InterruptedException {
 
-        pp.clickElement(pp.acceptCookiesButton);
+        //pp.clickElement(pp.acceptCookiesButton);
 
         GWD.js.executeScript("arguments[0].scrollIntoView(true);", pp.productDescriptionButton);
         GWD.js.executeScript("arguments[0].click();", pp.productDescriptionButton);

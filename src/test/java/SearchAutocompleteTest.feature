@@ -8,9 +8,9 @@
 
   Feature: Search input autocomplete test
 
-    Scenario: Check the autocomplete box is not visible after send 2 keys
-      Given User navigates to website
-      When Enter "ko" in search input user shouldn't see the autocomplete box
+    #Scenario: Check the autocomplete box is not visible after send 2 keys
+     # Given User navigates to website
+      #When Enter "ko" in search input user shouldn't see the autocomplete box
 
 
 

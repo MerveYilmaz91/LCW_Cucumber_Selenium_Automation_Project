@@ -25,6 +25,9 @@ public class Navbar extends HelperFunctions{
     @FindBy(xpath = "//div[text()='Önerilen Aramalar']")
     public List<WebElement> onerilenAramalarText;
 
+    @FindBy(css = ".search-form__input-field__close-wrapper")
+    public WebElement clearButton;
+
     }
 
 
