@@ -1,4 +1,4 @@
-#Senaryo : Checkbox Clear Function
+#2-Senaryo : Checkbox Clear Function
 #Arama çubuğuna metin yazıldıktan sonra yanda beliren temizle (çarpı/x) ikonuna tıklanarak input
 #alanının boşaltılması.
 

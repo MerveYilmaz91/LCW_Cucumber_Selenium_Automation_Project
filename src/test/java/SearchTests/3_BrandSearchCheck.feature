@@ -1,4 +1,4 @@
-#Senaryo : Brand Search Check
+#3- Senaryo : Brand Search Check
 # LCW bünyesinde satılan spesifik bir marka adı ("PUMA" vb.) aratıldığında
 # o markanın sayfasına veya marka filtrelenmiş ürün listesine gidilmesi,
 # ilk 10 ürün markasını doğrulama.

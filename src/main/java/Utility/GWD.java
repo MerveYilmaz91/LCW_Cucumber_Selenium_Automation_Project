@@ -32,5 +32,12 @@ public class GWD {
 
         return threads.get();
     }
+    public static void quitDriver() {
+
+        if (threads.get() != null) {
+            threads.get().quit();
+            threads.remove();
+        }
+    }
 
 }

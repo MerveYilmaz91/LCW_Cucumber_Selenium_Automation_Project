@@ -1,3 +1,11 @@
+   #8-Senaryo:
+      # 1- User anasayfaya gider
+   # 2- Arama inputuna kolsuz tişört yazar
+   # 3- İlk ürüne tıklar
+   # 4- Açıklamada kolsuz ve tişört kelimelerinin geçtiği onaylanır
+   #    https://www.lcwaikiki.com/
+
+
 
 Feature:Search Key Test
 

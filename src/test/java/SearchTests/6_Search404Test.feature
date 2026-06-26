@@ -1,4 +1,4 @@
-# Arama menüsü 404 case :
+#6- Senaryo: Arama menüsü 404 case :
 
 # Seneryo
 # Geçerli bir karakter dizisi "pantolon" diye arandığında arama sayfasında "pantolon" İÇİN SONUÇLAR" başlığının çıkması

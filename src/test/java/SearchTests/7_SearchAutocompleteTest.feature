@@ -1,4 +1,4 @@
-# Arama menüsü autocomplete case :
+# 7-Senaryo: Arama menüsü autocomplete case :
 
 # Senaryo 1
 # Arama çubuğuna 3 karakterden daha az (ör. "ko") değer girildiğinde otomatik tamamlama (autocomplete) menüsünün açılmaması.

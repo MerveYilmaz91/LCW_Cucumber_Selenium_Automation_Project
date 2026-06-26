@@ -1,12 +1,14 @@
-package PAGES;
+package pages;
 
-import Utility.GWD;
-import org.openqa.selenium.WebDriver;
+import java.util.List;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import java.util.List;
+import Utility.GWD;
+
+
 
 public class SearchPage extends HelperFunctions{
 
@@ -17,19 +19,22 @@ public class SearchPage extends HelperFunctions{
 
     // Element bulma
     @FindBy(xpath = "(//a[@data-product-order='0'])[1]")
-    public WebElement firstItem;
+    public WebElement FIRST_ITEM;
 
     @FindBy(css = "h1.product-list-heading__title")
-    public WebElement header;
+    public WebElement HEADER;
 
     @FindBy(css = ".not-found-keyword__text")
-    public WebElement notFoundText;
+    public WebElement NOT_FOUND_TEXT;
 
     @FindBy(css = ".product-description.product-card-info__description")
-    public List<WebElement> productNames;
+    public List<WebElement> PRODUCT_NAME;
 
     @FindBy(css = ".product-brand.product-card-info__brand")
-    public List<WebElement> productBrands;
+    public List<WebElement> PRODUCT_BRANDS;
+
+    @FindBy(className = "load-more__info-text-viewed-products")
+    public WebElement VİEWED_PRODUCT;
 
 
 

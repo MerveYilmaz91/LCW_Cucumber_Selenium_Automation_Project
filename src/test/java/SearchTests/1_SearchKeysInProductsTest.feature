@@ -1,6 +1,6 @@
 
 
- # 1- Seneryo : Searched Words In Products
+ # 1- Senaryo : Searched Words In Products
 
     # Arama çubuğuna spesifik bir kelime ("hırka") yazıp Enter'a basıldığında çıkan ürünlerin
     # en az 10 tanesinin isim veya kategorisinde bu kelimenin geçtiğinin doğrulanması.
